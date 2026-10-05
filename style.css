@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header section */
+header{
+    width: 375px;
+    height: 67px;
+    border-bottom: 1px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 127px;
+    height: 50px;
+    padding: 0 0 0 10px;
+}
+
+.user-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+}
+
+
+
+/* main section */
+
+.post-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+
+.imganddiv{
+    padding: 7px 0 0 8px;
+    display: flex;
+    gap: 10px;
+}
+
+.profile-img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+
+}
+
+.post-profile-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-name{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.location{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.post-vangogh{
+    width: 375px;
+    height: 375px;
+}
+
+.post-bottom-content{
+    padding-left: 10px;
+}
+
+.post-bottom-content-imgs{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+    
+}
+.post-bottom-content-imgs img{
+    width: 23.3px;
+    height: 22.13px;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.post-bottom-content-imgs img:hover{
+    transform: scale(1.25);
+}
+
+.like-count{
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.post-comment{
+    font-size: 13px;
+    margin: 0;
+}
+
+.commenter-name{
+    font-weight: 700;
+}
+
